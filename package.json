@@ -1,0 +1,22 @@
+{
+    "name": "node-cli-tutorial",
+    "version": "1.0.0",
+    "description": "Simple NodeJS CLI tool",
+    "main": "index.js",
+    "preferGlobal": true,
+    "bin": {
+        "weather-cli": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "all-the-cities": "^3.1.0",
+        "axios": "^0.21.4",
+        "commander": "^8.1.0",
+        "exceljs": "^4.3.0"
+    }
+}

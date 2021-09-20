@@ -2,8 +2,8 @@
 
 const program = require('commander');
 const citiesData = require('all-the-cities');
-const { printHeader, printWeatherResults, generateExcel } = require('./utils/utils');
-const { API_KEY, API_URL } = require('./constants/constants');
+const { printHeader, printWeatherResults, generateExcel } = require('../utils/utils');
+const { API_KEY, API_URL } = require('../constants/constants');
 const axios = require('axios');
 
 program
